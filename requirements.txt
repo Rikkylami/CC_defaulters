@@ -1,0 +1,15 @@
+# Data Manipulation & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Preprocessing
+scikit-learn>=1.2.2
+imbalanced-learn>=0.10.1
+
+# Data Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.2
+
+# Jupyter Environment
+jupyter>=1.0.0
+notebook>=6.5.4
