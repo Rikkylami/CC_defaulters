@@ -23,10 +23,12 @@ By telling the model to care more about the defaulters, the results completely f
 It did create more "False Positives" (flagging safe people for review), but from a bank's perspective, it's much cheaper to send an automated check-in email to a safe customer than it is to lose thousands of dollars on a missed default.
 
 ### Visualizing the Change
-*(Note: I've included screenshots of my charts below to show how the model improved!)*
+
 
 ![Confusion Matrix](Confusion_matrix.png)
 > *My final confusion matrix. You can see it aggressively catches the True Positives (bottom right) and avoids the False Negatives (bottom left).*
+
+
 
 ![Feature Importance](feature_importance.png)
 > *This chart shows which features the Random Forest thought were most important. My custom Utilization ratio ended up being a huge help!*
